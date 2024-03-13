@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Delicious+Handrawn&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgb(255, 190, 255);
+    width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row ;
+}
+header ul li{
+    margin: 30px;
+}
+
+header img{
+    width: 150px;
+}
+
+img{
+    width: 350px;
+  
+}
+
+
+h1{
+    font-size: medium;
+    color: rgb(255, 52, 147);
+    font-family: "Cedarville Cursive", cursive;
+}
+
+li{
+    font-size:large;
+    color: rgb(211, 78, 245);
+    font-family: fantasy;
+}
+
+p{
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    font-family:"Delicious Handrawn", cursiva;
+   
+}
+
+footer{
+    background-color: rgb(255, 202, 255);
+    width: 100%;
+    text-align: justify;
+}
+
+footer p{
+    color: blueviolet;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(245, 165, 221);
+    justify-content: center;
+
+}
+
+.contenedor p{
+    color: blueviolet;
+   text-justify: distribute-all-lines;
+}
+
+.contenedor2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(245, 165, 221);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items: center;
+
+}
+
+.caja2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items: center;
+}
+
+.servicios1 h1{
+    font-size: medium;
+    color: rgb(255, 52, 147);
+    font-family:  "Cutive Mono", monoespacial;
+}
+
+.contenedor2 ul li{
+    font-size:medium;
+    color: rgb(255, 255, 255);
+    font-family:"Cutive Mono", monoespacial;
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.carrusel img {
+    width: 100px;
+}
+
+body{
+    background: rgb(245, 165, 221);
+   width: 100%;
+   text-align: center;
+
+}
